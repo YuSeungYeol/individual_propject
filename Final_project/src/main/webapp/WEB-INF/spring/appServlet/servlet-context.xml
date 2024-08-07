@@ -40,6 +40,6 @@
 		어노테이션을 표시한 파일을 Bean으로 등록하여 재사용 가능 하도록 해줌
 		(이렇게만 하면 환경설정이 끝난다)
 	 -->
-	 <context:component-scan base-package="com.gn.spring"/>
+	<context:component-scan base-package="com.pro.user"/>
 
 </beans:beans>
