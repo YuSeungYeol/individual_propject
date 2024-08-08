@@ -11,7 +11,7 @@ import java.util.Map;
 
 @Controller
 public class SmokingAreaController {
-
+ 
     @Autowired
     private SmokingAreaService smokingAreaService;
 

@@ -17,7 +17,7 @@ public class SmokingAreaService {
         UriComponentsBuilder uriBuilder = UriComponentsBuilder.fromHttpUrl(url)
             .queryParam("serviceKey", apiKey)
             .queryParam("latitude", latitude)
-            .queryParam("longitude", longitude)
+            .queryParam("longitude", longitude) 
             .queryParam("resultType", "json");
 
         return restTemplate.getForObject(uriBuilder.toUriString(), Map.class);

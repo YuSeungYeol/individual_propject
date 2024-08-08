@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>근처 흡연장 검색</h1>
-    <form method="get" action="/search">
+    <form method="get" action="/search"> 
         <label for="latitude">위도:</label>
         <input type="text" id="latitude" name="latitude" required>
         <label for="longitude">경도:</label>
